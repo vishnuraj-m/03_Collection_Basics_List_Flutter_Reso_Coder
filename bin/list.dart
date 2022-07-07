@@ -21,4 +21,9 @@ void main(List<String> arguments) {
   };
   final name = myMap['name'];
   print(name);
+
+  //* SET
+  Set<int> mySet = {1, 3, 5, 3};
+  print(mySet);
+  print(mySet.length);
 }
